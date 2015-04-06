@@ -1,3 +1,5 @@
+/* brown #512200 */
+
 html {
   box-sizing: border-box;
   font-family: 'Dosis', sans-serif;
@@ -6,4 +8,84 @@ html {
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+header{
+  background-image: url("../images/beetles.svg"), url("../images/beetles.svg"), url("../images/background.png");
+  background-size: 75px auto, 75px auto, 250px auto;
+  padding: 3em;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: right 25px, left 25px, left top;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+  font-size: 3em;
+  color: #512200;
+}
+
+.nav{
+  background-image: url("../images/background.png");
+  background-size: 75px auto;
+  padding: 0em;
+  background-repeat: repeat;
+  background-position: left top;
+}
+
+nav{
+  padding: 1.5em;
+  background-color: #512200;
+  opacity: 0.75;
+}
+
+nav ol{
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+nav li{
+  float: left;
+  width: 25%;
+  margin: 0;
+}
+
+nav a{
+  color: red;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+  padding: 2em;
+  background-color: #512200;
+  opacity: 0.75;
+
+}
+
+nav a:hover{
+  background-color:#a93f35;
+}
+
+div{
+  background-image: url("../images/rocks.jpg");
+  background-size: 100%;
+  padding-top: 10em;
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.info{
+  color: white;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+img{
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  margin: 0;
 }
