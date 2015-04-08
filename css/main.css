@@ -13,12 +13,16 @@ html {
 body{
   margin: 0;
 }
+
 header{
   background-image: url("../images/beetles.svg"), url("../images/beetles.svg"), url("../images/background.png");
   background-size: 75px auto, 75px auto, 250px auto;
-  padding: 3em;
+  padding-top: 3em;
+  padding-bottom: 3em;
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: right 25px, left 25px, left top;
+  display: block;
+
 }
 
 h1{
@@ -26,6 +30,8 @@ h1{
   margin: 0;
   font-size: 3em;
   color: #512200;
+  padding-bottom: 0.5em;
+
 }
 
 nav{
@@ -66,7 +72,8 @@ nav a:hover{
 .text{
   background-image: url("../images/rocks.jpg");
   background-size: 100%;
-  padding-top: 10em;
+  padding-top: 9em;
+  margin: 0;
   background-repeat: no-repeat;
   background-position: left top;
 }
