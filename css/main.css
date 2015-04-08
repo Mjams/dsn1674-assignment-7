@@ -10,6 +10,9 @@ html {
   box-sizing: inherit;
 }
 
+body{
+  margin: 0;
+}
 header{
   background-image: url("../images/beetles.svg"), url("../images/beetles.svg"), url("../images/background.png");
   background-size: 75px auto, 75px auto, 250px auto;
@@ -25,45 +28,39 @@ h1{
   color: #512200;
 }
 
-.nav{
-  background-image: url("../images/background.png");
-  background-size: 75px auto;
-  padding: 0em;
-  background-repeat: repeat;
-  background-position: left top;
-}
-
 nav{
-  padding: 1.5em;
+  width: 100%;
   background-color: #512200;
   opacity: 0.75;
 }
 
 nav ol{
+  padding-bottom: 0;
   text-align: center;
   list-style-type: none;
   margin: 0;
 }
 
 nav li{
-  float: left;
+  display: block;
+  float:left;
   width: 25%;
   margin: 0;
 }
 
 nav a{
-  color: red;
+  display: block;
+  color: white;
   text-decoration: none;
   font-size: 1rem;
-  display: block;
-  padding: 2em;
   background-color: #512200;
   opacity: 0.75;
-
+  padding: 0.87em;
 }
 
 nav a:hover{
-  background-color:#a93f35;
+  background-color:#512200;
+  opacity: 0.97;
 }
 
 div{
