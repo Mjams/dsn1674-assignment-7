@@ -29,44 +29,47 @@ h1{
   text-align: center;
   margin: 0;
   font-size: 3em;
+  font-weight: bold;
   color: #512200;
   padding-bottom: 0.5em;
 
 }
 
 nav{
+  float: left;
+  overflow: hidden;
   width: 100%;
-  background-color: #512200;
-  opacity: 0.75;
 }
 
 nav ol{
-  padding-bottom: 0;
-  text-align: center;
-  list-style-type: none;
   margin: 0;
+  overflow: hidden;
+  list-style-type: none;
+  padding: 0;
 }
 
 nav li{
-  display: block;
   float:left;
   width: 25%;
   margin: 0;
+  text-align: center;
+  font-weight: bold;
 }
 
 nav a{
+  text-align: center;
   display: block;
   color: white;
   text-decoration: none;
-  font-size: 1rem;
-  background-color: #512200;
-  opacity: 0.75;
+  font-size: 1.1rem;
   padding: 0.87em;
+  background-color: #512200;
+  opacity: 0.50;
 }
 
-nav a:hover{
-  background-color:#512200;
-  opacity: 0.97;
+nav li:hover{
+  background-color: #512200;
+  opacity: 0.80;
 }
 
 .text{
@@ -87,22 +90,104 @@ nav a:hover{
   text-align: center;
 }
 
-img{
-  float: left;
-  width: 50%;
-  overflow: hidden;
-  margin: 0;
-}
-
 footer{
   background-image: url("../images/beetles.svg");
   background-size: 50px auto;
   background-repeat: no-repeat;
   background-position: center 10px;
+  overflow: hidden;
+  clear: left;
 }
 
 .footer{
   background-color: #512200;
   opacity: 0.5;
   padding: 2em;
+  overflow: hidden;
+}
+
+
+.button{
+  text-align: center;
+}
+
+.btn-1{
+display: inline-block;
+padding: 0.5em 0.75em;
+text-decoration: none;
+border-radius: 30px;
+color: white;
+background-color: #388200;
+background-image: linear-gradient(to bottom, #6fc000, #388200);
+position: absolute;
+z-index: 1000;
+bottom: 3em;
+left: 7em;
+}
+
+.btn-2{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  position: absolute;
+  z-index: 1000;
+  bottom: 3em;
+  right: 7em;
+}
+
+.btn-3{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  position: absolute;
+  z-index: 1000;
+  bottom: -18em;
+  left: 8em;
+}
+
+.btn-4{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  background-color: #388200;
+  background-image: linear-gradient(to bottom, #6fc000, #388200);
+  position: absolute;
+  z-index: 1000;
+  bottom: -18em;
+  right: 7em;
+}
+
+.left{
+  float: left;
+  width: 50%;
+}
+
+.right{
+  float: left;
+  width: 50%;
+}
+
+.left-2{
+  clear: both;
+  float: left;
+  width: 50%;
+}
+
+.right-2{
+  float: left;
+  width: 50%;
+}
+
+a:hover{
+
 }
