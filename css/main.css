@@ -63,7 +63,7 @@ nav a:hover{
   opacity: 0.97;
 }
 
-div{
+.text{
   background-image: url("../images/rocks.jpg");
   background-size: 100%;
   padding-top: 10em;
@@ -85,4 +85,17 @@ img{
   width: 50%;
   overflow: hidden;
   margin: 0;
+}
+
+footer{
+  background-image: url("../images/beetles.svg");
+  background-size: 50px auto;
+  background-repeat: no-repeat;
+  background-position: center 10px;
+}
+
+.footer{
+  background-color: #512200;
+  opacity: 0.5;
+  padding: 2em;
 }
