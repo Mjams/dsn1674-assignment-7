@@ -22,7 +22,6 @@ header{
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: right 25px, left 25px, left top;
   display: block;
-
 }
 
 h1{
@@ -59,7 +58,7 @@ nav li{
 nav a{
   text-align: center;
   display: block;
-  color: white;
+  color: #fff;
   text-decoration: none;
   font-size: 1.1rem;
   padding: 0.74em;
@@ -109,8 +108,8 @@ footer{
 
 .button{
   width: 50%;
-float: left;
-position: relative;
+  float: left;
+  position: relative;
 }
 
 .btn{
